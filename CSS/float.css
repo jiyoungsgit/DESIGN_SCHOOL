@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.wrapper{
+  background-color: pink;
+  border: 10px solid black;
+ 
+  /* overflow: hidden; */
+}
+
+/*가짜로 마지막 box4뒤에 박스5를 만들수 있다.*/
+.clearfix::after{
+  /* content: "박스5"; */
+  content: "";
+  display: block;
+  clear: both;
+  /* 이 세개를 같이 해놔야 float문제를 해결할 수 있다. */
+  background: teal;
+  color: white;
+}
+
+.wrapper2{
+  background-color: yellow;
+  /* margin-top: 120px; */
+}
+
+
+.box1, .box2, .box3, .box4{
+  width: 25%;
+  height: 200px;
+}
+
+.box1{
+  background-color: rgba(255,0,0,.5);
+  float: left;
+}
+
+.box2{
+  background-color: rgba(0,255,0,.5);
+  float: right;
+}
+
+.box3{
+  background-color: rgba(0,0,255,.5);
+  float: right;
+}
+
+.box4{
+  background-color: rgba(255,0,255,.5);
+  float: left;
+  }
