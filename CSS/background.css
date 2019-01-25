@@ -1,10 +1,9 @@
 @charset "utf-8";
 
-
+/* 
 body{
   background-color: green;
   background-image: url("./../images/bg1.jpg");
-  /* background-size: 500px 350px; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -12,7 +11,7 @@ body{
 
   background: yellow url("./../images/bg1.jpg") no-repeat 50% 50% /contain fixed;
 }
- 
+  */
 
 body{
   background-color: pink;
