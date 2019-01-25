@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+h1{
+  background: pink;
+  box-shadow: 5px 5px 0 0 black ; 
+}
+.shadow{
+  background: black;
+}
+
+h2{
+  position: relative;
+  background: rgb(124, 194, 252);
+  top: -5px;
+  left: -5px;
+}
+.parent{
+  background: orange;
+  height: 300px;
+  border: 3px solid black;
+  position: relative;
+  width: 500px;
+
+}
+
+
+h3{
+  background:lime;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  width: 200px;
+  height: 150px;
+}
+
+h4{
+  background: aqua;
+  position: fixed;
+  bottom: 50px;
+  right: 50px; /*뷰포트에 맞춰서 배치된다.*/
+}
